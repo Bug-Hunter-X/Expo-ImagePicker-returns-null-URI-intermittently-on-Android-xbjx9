@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library.  The issue is that after selecting an image, the image's URI is sometimes returned as `null` or undefined, even though the user successfully selected an image from their device's gallery. This causes unexpected behavior in the application and can lead to crashes or errors.
